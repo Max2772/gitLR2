@@ -2,19 +2,17 @@
 
 int main()
 {
-
     double X,Y;
-    bool res;
     std::cout << "Введите X и Y: ";
     std::cin >> X >> Y;
 
-    res = X > Y ? true : false;
-
-    if(res == true)
+    if(X > Y)
     {
         std::cout << X;
     }else
+    {
         std::cout << Y;
+    }
 
     return 0;
 }
