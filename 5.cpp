@@ -12,9 +12,9 @@ int main()
 
     if(res == true)
     {
-        std::cout << X;
+        std::cout << X << std::endl;
     }else
-        std::cout << Y;
+        std::cout << Y << std::endl;
 
     return 0;
 }
