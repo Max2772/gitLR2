@@ -8,10 +8,10 @@ int main()
 
     if(X > Y)
     {
-        std::cout << X;
+        std::cout << X << '\n';
     }else
     {
-        std::cout << Y;
+        std::cout << Y << '\n';
     }
 
     return 0;
